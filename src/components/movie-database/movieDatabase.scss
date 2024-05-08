@@ -1,0 +1,39 @@
+// MovieCard.scss
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: calc(50% - 20px);
+  margin: 0 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+	margin-top: auto;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
